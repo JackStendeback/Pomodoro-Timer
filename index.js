@@ -23,9 +23,9 @@ function displayTime(seconds) {
 }
 
 const badgeLevels = [
-    { level: 'Bronze', sessions: 1 },
-    { level: 'Silver', sessions: 2 },
-    { level: 'Gold', sessions: 3 },
+    { level: 'Bronze', sessions: 5 },
+    { level: 'Silver', sessions: 10 },
+    { level: 'Gold', sessions: 15 },
     { level: 'Platinum', sessions: 20 },
     { level: 'Diamond', sessions: 25 },
 ]
@@ -53,7 +53,7 @@ window.onload = function() {
 function startTimer() {
     clearInterval(timerInterval);
 
-    let timeLeft = isWorkMode ? 10 : 5;
+    let timeLeft = isWorkMode ? 25 * 60 : 5 * 60;
 
     // Play the start sound if it's work mode
     if (isWorkMode) {
