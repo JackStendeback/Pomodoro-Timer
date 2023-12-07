@@ -23,11 +23,18 @@ function displayTime(seconds) {
 }
 
 const badgeLevels = [
-    { level: 'Bronze', sessions: 5 },
-    { level: 'Silver', sessions: 10 },
-    { level: 'Gold', sessions: 15 },
-    { level: 'Platinum', sessions: 20 },
-    { level: 'Diamond', sessions: 25 },
+    { level: 'Wood', sessions: 1 },
+    { level: 'Bronze', sessions: 10 },
+    { level: 'Silver', sessions: 20 },
+    { level: 'Gold', sessions: 30 },
+    { level: 'Platinum', sessions: 40 },
+    { level: 'Diamond', sessions: 50 },
+    { level: 'Master', sessions: 60 },
+    { level: 'Grandmaster', sessions: 70 },
+    { level: 'Legend', sessions: 80 },
+    { level: 'Mythical', sessions: 90 },
+    { level: 'Immortal', sessions: 100 }
+    { level: 'Divine', sessions: 110 },
 ]
 
 // When the page loads
