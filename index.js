@@ -33,7 +33,7 @@ const badgeLevels = [
     { level: 'Grandmaster', sessions: 70 },
     { level: 'Legend', sessions: 80 },
     { level: 'Mythical', sessions: 90 },
-    { level: 'Immortal', sessions: 100 }
+    { level: 'Immortal', sessions: 100 },
     { level: 'Divine', sessions: 110 },
 ]
 
